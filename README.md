@@ -54,7 +54,8 @@ Repositorio para el taller práctico de refactorización de un sistema monolíti
 - **Propuesta Final:** Documento con los detalles de la nueva arquitectura, patrones de diseño aplicados, y los ADR (Architecture Decision Records).
 
 ## Estructura del Proyecto
-<img width="494" height="472" alt="image" src="https://github.com/user-attachments/assets/9313a872-c70c-4910-8782-670fde5e0775" />
+<img width="520" height="490" alt="image" src="https://github.com/user-attachments/assets/4ccae585-c998-4665-8953-b977de5c7ee7" />
+
 
 
 
