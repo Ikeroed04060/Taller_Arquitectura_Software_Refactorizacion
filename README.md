@@ -54,19 +54,6 @@ Repositorio para el taller práctico de refactorización de un sistema monolíti
 - **Propuesta Final:** Documento con los detalles de la nueva arquitectura, patrones de diseño aplicados, y los ADR (Architecture Decision Records).
 
 ## Estructura del Proyecto
-entrega-taller/
-├── 01-montaje/
-│ ├── informe-montaje.pdf
-│ └── screenshots/
-├── 02-analisis/
-│ └── antipatrones.pdf
-├── 03-diagramas-c4/
-│ ├── c4-contexto.png
-│ ├── c4-contenedores-actual.png
-│ ├── c4-contenedores-propuesto.png
-│ └── source/ (código fuente de diagramas)
-├── 04-propuesta/
-│ ├── propuesta-arquitectura.pdf
-│ └── adr/ (Architecture Decision Records)
-└── README.md (resumen ejecutivo)
+<img width="484" height="461" alt="image" src="https://github.com/user-attachments/assets/99350c39-c139-431e-b981-e341b9b41b15" />
+
 
