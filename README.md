@@ -17,7 +17,7 @@ Repositorio para el taller práctico de refactorización de un sistema monolíti
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/lanvargas94/Semana-2.git
+   git clone https://github.com/Ikeroed04060/Taller_Arquitectura_Software_Refactorizacion.git
 
 
 ### Tecnologías Utilizadas
