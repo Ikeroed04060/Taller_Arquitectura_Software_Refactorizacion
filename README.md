@@ -70,4 +70,3 @@ entrega-taller/
 │ └── adr/ (Architecture Decision Records)
 └── README.md (resumen ejecutivo)
 
-
