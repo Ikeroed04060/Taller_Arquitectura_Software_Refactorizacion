@@ -3,8 +3,8 @@ Repositorio para el taller práctico de refactorización de un sistema monolíti
 
 ## Integrantes del Grupo
 1. **Nombre Integrante 1:** Iker Edwin Santiago Solano Ruiz
-2. **Nombre Integrante 2:** [Nombre Completo]
-3. **Nombre Integrante 3:** [Nombre Completo]
+2. **Nombre Integrante 2:** Cesar David Quintero Ramirez
+3. **Nombre Integrante 3:** Andy Brahiam Yara Medina
 
 ## Cómo Ejecutar el Proyecto
 
