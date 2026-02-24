@@ -2,9 +2,12 @@
 Repositorio para el taller práctico de refactorización de un sistema monolítico en microservicios. Se analizan y corrigen anti-patrones en el código, se aplican principios de Clean Code, y se propone una nueva arquitectura utilizando patrones de diseño y microservicios para mejorar escalabilidad y mantenibilidad.
 
 ## Integrantes del Grupo
-1. **Nombre Integrante 1:** Iker Edwin Santiago Solano Ruiz
-2. **Nombre Integrante 2:** Cesar David Quintero Ramirez
-3. **Nombre Integrante 3:** Andy Brahiam Yara Medina
+1. **Iker Edwin Santiago Solano Ruiz** iesolano-2022a@corhuila.edu.co
+2. **Cesar David Quintero Ramirez** cdquintero-2022a@corhuila.edu.co
+3. **Andy Brahiam Yara Medina** ayara-2022a@corhuila.edu.co
+
+## Fecha de Entrega de Fase 01-Montaje y 02-Analisis
+Febrero 18/2026
 
 ## Cómo Ejecutar el Proyecto
 
