@@ -1,0 +1,26 @@
+@startuml c4-contenedores-actual
+!define RECTANGLE class
+
+actor "Usuario" as usuario
+
+rectangle "Frontend Angular" {
+  [Crear Encuesta]  
+  [Votar Encuesta]  
+  [Ver Resultados]
+}
+
+rectangle "Backend Monolítico" {
+  [EncuestaController]
+  [VotoController]
+  [Database Connection]  
+}
+
+rectangle "Base de datos PostgreSQL" {
+  [Encuesta]
+  [Voto]
+}
+
+usuario --> "Frontend Angular" : Interactúa con la interfaz
+"Frontend Angular" --> "Backend Monolítico" : Realiza peticiones
+"Backend Monolítico" --> "Base de datos PostgreSQL" : Lee y escribe datos
+@enduml

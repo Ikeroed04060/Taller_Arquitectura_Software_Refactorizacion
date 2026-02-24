@@ -1,0 +1,24 @@
+@startuml c4-contexto
+!define RECTANGLE class
+
+actor "Usuario" as usuario
+actor "API Gateway" as apiGateway
+actor "Frontend Angular" as frontend
+
+rectangle "Espagueti de Encuestas" {
+  rectangle "Backend Monolítico" {
+    [EncuestaController]  
+    [VotoController]
+  }
+  
+  rectangle "Base de datos PostgreSQL" {
+    [Encuesta]  
+    [Voto]
+  }
+}
+
+usuario --> frontend : Usa la aplicación
+frontend --> apiGateway : Realiza peticiones
+apiGateway --> "Backend Monolítico" : Envia las peticiones
+"Backend Monolítico" --> "Base de datos PostgreSQL" : Realiza consultas y persistencia
+@enduml

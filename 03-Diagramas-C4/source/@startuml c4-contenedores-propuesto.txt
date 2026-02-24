@@ -1,0 +1,33 @@
+@startuml c4-contenedores-propuesto
+!define RECTANGLE class
+
+actor "Usuario" as usuario
+actor "API Gateway" as apiGateway
+
+rectangle "Microservicios" {
+  rectangle "survey-service" {
+    [EncuestaService]
+    [EncuestaRepository]
+  }
+
+  rectangle "voting-service" {
+    [VotoService]
+    [VotoRepository]
+  }
+
+  rectangle "api-gateway" {
+    [API Gateway]
+  }
+}
+
+rectangle "Base de datos PostgreSQL" {
+  [Encuesta]
+  [Voto]
+}
+
+usuario --> "API Gateway" : Interactúa con el sistema
+"API Gateway" --> "survey-service" : Solicita gestión de encuestas
+"API Gateway" --> "voting-service" : Solicita registro de votos
+"survey-service" --> "Base de datos PostgreSQL" : Consulta y persiste encuestas
+"voting-service" --> "Base de datos PostgreSQL" : Registra y consulta votos
+@enduml
